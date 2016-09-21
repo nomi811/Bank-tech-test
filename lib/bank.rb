@@ -17,7 +17,7 @@ class Bank
     @balance -= amount
   end
 
-  def print_transactions
+  def print_statment
 
     title_row = 'date ||' + ' credit ||' + ' debit ||' + ' balance'
 
@@ -28,4 +28,4 @@ class Bank
 end
 
 bank = Bank.new
-puts bank.print_transactions
+puts bank.print_statment
